@@ -1,0 +1,24 @@
+.jumbotron {
+  text-align: center;
+}
+.stage {
+  text-align: center;
+  border: solid;
+  margin: 30px;
+}
+.contact-form {
+  text-align: center;
+  margin-top: 50px;
+}
+.name {
+  display: inline-block;
+}
+.contact-info {
+  display: inline-block;
+}
+.col-md-1 {
+  text-align: center;
+}
+.test {
+  min-width: 10px;
+}
