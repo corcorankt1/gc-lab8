@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	// var counter = 0;
 
 	// $( "#thanks" ).dialog({ autoOpen: false });
@@ -8,11 +8,11 @@ $(document).ready(function(){
 	// });
 
 	$( "div.seats" ).mouseenter(function() {
-  	$( this ).fadeTo("fast", .10) 
+  	$( this ).fadeTo("fast", .10)
 	});
 
 	$("div.seats").mouseout(function() {
-  	$(this).fadeTo("fast", 1) 
+  	$(this).fadeTo("fast", 1)
   	});
 
 	$("p.seat").on("click", function(){
@@ -28,15 +28,15 @@ $(document).ready(function(){
     $(".button").click(function(){
 
     var fname = $("#firstName").val();
-  
+
     var lname = $("#lastName").val();
-     
 
 
-   	$("#reservation").append("Thank You "+ fname+ " " +lname + ". Your reservation is complete!");
+
+   	$("#reservation").append("Thank You, "+ fname+ " " +lname + ". Your reservation is now complete!");
    	$(".selected").addClass("reserved");
 
-    
+
 
 
     });
