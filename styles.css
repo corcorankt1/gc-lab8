@@ -22,3 +22,6 @@
 .test {
   min-width: 10px;
 }
+.selected {
+  background-color: #00f;
+}
