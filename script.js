@@ -33,7 +33,8 @@ $(document).ready(function(){
      
 
 
-   	$("#reservation").append("Thank You "+ fname+ " " +lname + " You have reserved " + counter + " seats");
+   	$("#reservation").append("Thank You "+ fname+ " " +lname + ". Your reservation is complete!");
+   	$(".selected").addClass("reserved");
 
     
 
