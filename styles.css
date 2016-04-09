@@ -1,10 +1,14 @@
+
+
+
+    
+
 .jumbotron {
   text-align: center;
   background-color: #add8e6;
 }
 .stage {
   text-align: center;
-  border: solid;
   margin: 30px;
   height: 60px;
 }
@@ -37,7 +41,7 @@ button {
   margin: 5px;
 }
 h3 {
-  background-color: #add8e6;
+  background-color: indianred;
   font-size: 40px;
 }
 label {
@@ -56,3 +60,10 @@ label {
 .reserved {
   background-color: #f00;
 }
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
