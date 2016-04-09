@@ -80,20 +80,31 @@
         <!-- Input Form -->
         <div class = "row">
           <form class="col-md-12 contact-form">
-            <p>Pleas fill out the form for movie selection:</p>
-            <p class="name">First Name:</p>
-            <input type="text" name="firstname" placeholder="First Name">
-            <p class="name">Last Name:</p>
-            <input type="text" name="lastname" placeholder="Last Name">
+            <p>Please fill out the form for movie selection:</p>
+            
+            <label>First Name:</label>
+            <input type="text" name="first" placeholder="First Name" id = "firstName">
+
+            <label>Last Name:</label>
+            <input type="text" name="lastname" placeholder="Last Name" id = "lastName">
             <br>
-            <p class="contact-info">Email:</p>
-            <input type="text" name="email" placeholder="Email">
-            <p class="contact-info">Phone Number:</p>
-            <input type="number" name="phonenumber" placeholder="Phone Number">
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="Email" id = "email">
+
+            <label>Phone Number:</label>
+            <input type="number" name="phonenumber" placeholder="Phone Number" id = "phoneNumber">
             <br>
-            <input class="gender" type="radio" name="gender" value="male" checked> Male<br>
-            <input class="gender" type="radio" name="gender" value="female"> Female<br>
+            <input class="gender" type="radio" name="gender" value="male" checked id = "male"> Male<br>
+            <input class="gender" type="radio" name="gender" value="female" id = "female"> Female<br>
+          
+            <button type = "button" class = "button"> Submit </button>
           </form>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p id = "reservation"></p>
+          </div>
         </div>
 
       </main>
