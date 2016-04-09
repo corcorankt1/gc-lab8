@@ -1,7 +1,7 @@
 
 
 
-    
+
 
 .jumbotron {
   text-align: center;
@@ -41,8 +41,10 @@ button {
   margin: 5px;
 }
 h3 {
-  background-color: indianred;
+  text-align: center;
+  background-color:#add8e6 ;
   font-size: 40px;
+  padding-top: 7px;
 }
 label {
   background-color: #add8e6;
